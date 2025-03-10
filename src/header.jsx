@@ -6,13 +6,11 @@ const LandingSection = ({ fetchBibleVerse }) => {
     <div className="atf_36">
     <header className="header">
       <div className="header-container">
-        {/* Logo on the left */}
         <img 
             src = "/src/assets/icon.png"
           alt="Logo" 
           className="logo"
         />
-        {/* Website name */}
         <h1 className="website-name">Jesus Says</h1>
       </div>
     </header>
@@ -30,6 +28,8 @@ const LandingSection = ({ fetchBibleVerse }) => {
                 <button className="landing-button">
                     Click Here to Get a Random Bible Verse
                 </button>
+                <br />
+                <br />
               </a>
             </div>
           </div>
