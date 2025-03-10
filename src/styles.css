@@ -1,0 +1,262 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b2aeae; /* or any background color you prefer */
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;  /* adjust size as needed */
+  height: auto;
+}
+
+.website-name {
+  font-family: Nunito, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Other Styles (keep your existing styles for the rest of the layout) */
+
+.atf_36 * {
+    font-family: Nunito, sans-serif;
+  
+  }
+
+  .atf_36 input:focus {
+    outline-color: initial;
+    outline-style: none;
+    outline-width: 0px;
+  }
+  
+  .atf_36 .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  
+  .atf_36 .responsive-container-block.big-container {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    min-height: 800px;
+    background-size: cover ;
+    align-items: center;
+    background-color: rgba(21, 21, 21, 0.7);
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .atf_36 .imgBG {
+    background-image: url("src/assets/background.jpg");
+    background-size: cover;
+  }
+
+  .atf_36 .text-blk.landing10-head {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+    max-width: 750px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  
+  .atf_36 .text-blk.landing10-subhead {
+    max-width: 790px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  .atf_36 .input-box {
+    max-width: 650px;
+    width: 100%;
+  }
+  
+  .atf_36 .landing-button {
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #f49892;
+    cursor: pointer;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-top-color: #767676;
+    border-right-color: #767676;
+    border-bottom-color: #767676;
+    border-left-color: #767676;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 17px;
+    padding-right: 60px;
+    padding-bottom: 17px;
+    padding-left: 60px;
+    line-height: 27px;
+  }
+  
+  .atf_36 .landing-button:hover {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #f49832;
+  }
+  
+  .atf_36 .text-blk.onlineEducation {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  
+  .atf_36 .btn {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  
+  .atf_36 .downArrowImg {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 40px;
+    height: 75px;
+    cursor: pointer;
+  }
+  
+  .atf_36 #iuy3u {
+    margin: 0 auto 0 auto;
+  }
+  
+  @media (max-width: 1024px) {
+    .atf_36 .responsive-container-block.big-container {
+      background-size: contain;
+      background-repeat: repeat;
+    }
+  
+    .atf_36 .responsive-container-block.big-container {
+      background-size: cover;
+    }
+  
+    .atf_36 .responsive-container-block.big-container {
+      background-position-x: 100%;
+      background-position-y: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .atf_36 .responsive-container-block.big-container {
+      background-size: cover;
+    }
+  
+    .atf_36 .text-blk.landing10-head {
+      font-size: 36px;
+      line-height: 45px;
+    }
+  
+    .atf_36 .text-blk.landing10-subhead {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  
+    .atf_36 .text-blk.landing10-subhead {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .atf_36 .responsive-container-block.big-container {
+      background-position-x: 100%;
+      background-position-y: 100%;
+    }
+  
+    .atf_36 .text-blk.landing10-head {
+      font-size: 40px;
+      line-height: 55px;
+    }
+  
+    .atf_36 .text-blk.landing10-subhead {
+      font-size: 25px;
+      line-height: 34px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .atf_36 .landing-button {
+      width: 100%;
+    }
+  
+    .atf_36 .responsive-container-block.big-container {
+      background-position-x: 100%;
+      background-position-y: 100%;
+    }
+  
+   
+  
+    .atf_36 .text-blk.landing10-head {
+      font-size: 25px;
+      line-height: 34px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 00px;
+      margin-left: 0px;
+    }
+  
+    .atf_36 .text-blk.landing10-subhead {
+      font-size: 20px;
+      line-height: 27px;
+    }
+    .atf_36 .text-blk.landing10-subhead {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
